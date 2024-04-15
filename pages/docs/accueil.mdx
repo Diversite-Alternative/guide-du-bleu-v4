@@ -1,0 +1,29 @@
+---
+sidebar_position: 0
+---
+
+![Equipe-divalt](/img/home.png)
+
+import Image from 'next/image'
+import home from './home.png'
+ 
+export default function Page() {
+  return (
+    
+    <> 
+      <br />
+      <Image
+        src={home}
+        alt="Picture of the author"
+        width={600} automatically provided
+        height={500} automatically provided
+        // blurDataURL="data:..." automatically provided
+        // placeholder="blur" // Optional blur-up while loading
+      />
+
+     
+    </>
+   
+
+  )
+}
